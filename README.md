@@ -3,35 +3,43 @@ Syllabus
 
 **Introduction to Python Programming - BIOF309 - FAES**
 
-**Fall 2018**
+**Fall 2019**
 
-**Time: Thursday 5:30PM - 7:30PM**
+**Time: Thursday 6:00PM - 8:00PM**
 
 *This document is subject to revision!*
 
 Changes are tracked using the [git version control system](https://git-scm.com/).
 
-To interact with the materials in the repo using [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) (via [Binder](https://mybinder.org/)), please click the button below.
+To interact with the materials in the repo online you may use [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) (via [Binder](https://mybinder.org/)), by clicking the link below.
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/marskar/biof309_fall2018/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/marskar/biof309_fall2019/master?urlpath=lab)
 
-Additionally, the [Jupyter Notebooks (`ipynb` files)](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html) in this repo can be opened in [Google colab](https://colab.research.google.com) by clicking the icon below.
+If you have your own installation of Anaconda (or Miniconda with some extra packages installed) you can run a local jupyterlab instance with the following commands:
 
-<a href="http://colab.research.google.com/github/marskar/biof309_fall2018/blob/master/index.ipynb"><img src="https://colab.research.google.com/img/colab_favicon_256px.png" width="48"></a>
+```
+# It would be best if you clone a forked version of this repository
+git clone https://github.com/biof309/fall2019
+
+cd fall2019
+
+jupyter lab
+```
+
 
 Instructors
 -----------
 
-* Martin Skarzynski - marskar at gmail dot com
-* Jinping Liu - liu dot jinping at nih dot com
-* Michael Chambers - michael dot chambers2 at nih dot gov
+* John Lee 
+* Ryan Patterson
+* Sydney Hertafeld
 
 Course Description
 ------------------
 
 This course is designed for non-programmers, biologists, or those without specific knowledge of Python to learn how to program.
 Week by week, we will slowly build up your skills and understanding of computer programming and the Python programming language.
-There will be in-class demonstrations, using [PyCharm](https://www.jetbrains.com/pycharm/features/) and to a lesser extent [JupyterLab](http://jupyterlab.readthedocs.io), and activities to be completed outside of class, using [DataCamp](https://www.datacamp.com), for you to practice and learn at your own pace.
+There will be in-class demonstrations, using [JupyterLab](http://jupyterlab.readthedocs.io), and activities to be completed outside of class, using [DataCamp](https://www.datacamp.com), for you to practice and learn at your own pace.
 
 Learning Objectives
 -------------------
@@ -47,31 +55,28 @@ By the end of this course you should be able to:
 Communication
 ------------
 
+Please try to ask your questions during class, if at all possible.
+
 **Before contacting us**, please check to see if your question has already been answered elsewhere, e.g. [StackOverflow](https://stackoverflow.com/).
 
 If you cannot find the answer, please make sure to ask your question thoughtfully (https://stackoverflow.com/help/how-to-ask) and provide everything needed to answer e.g. code, error message, dataset, etc.
 
-In general, please use the [course Slack workspace](https://biof309.slack.com) to communicate with classmates and instructors. If you have a course-relevant question or something to share, [Slack](https://biof309.slack.com) is simply better than email. In case of personal/private question/concerns, please use [Slack](https://biof309.slack.com) direct message (DM).
+In general, please use the [course gitter channel](https://gitter.im/biof309/community) to communicate with classmates and instructors. In case of personal/private question/concerns, please use the private chat functionality of gitter.
 
-In case of an emergency, please send a DM on [Slack](https://biof309.slack.com) *and* an email.
+In case of an emergency, please use [gitter](https://biof309.slack.com) *and* an email.
 
 Logistics
 ---------
 
-This is a one-semester course starting on the 13th of September 2018 and finishing on 13th of December 2018.
+This is a one-semester course starting on the 12th of September 2019 and finishing in December 2019.
 
-**Class Location: Rathskeller (Room B1A199C), Building 60, NIH Bethesda campus**
+Unless otherwise notified classes will be held at:
 
-Attendance in class is strongly recommended; however, we realize other commitments may occasionally prevent attendance. If you miss a class, please review the materials available at the course [GitHub repository](https://github.com/marskar/biof309_fall2018) and keep up with activities and homework.
+** Building 10, Room B1C209-211, NIH Bethesda campus**
 
-NEW THIS SEMESTER! We will be piloting REMOTE ATTENDANCE and CLASS RECORDINGS via [GoToMeeting](https://www.gotomeet.me/biof309) and [WebEx](https://cbiit.webex.com/join/skarzynskimw). These two options are largely the same, you can pick whichever platform you prefer. Please do **NOT** use this as excuse to skip class and just watch the recorded lectures! This course is **NOT** a Massive Online Open Course (MOOC), it will feature a great deal of group work. Additionally, forming groups to complete the final project is highly encouraged! Remote attendance will work best if you can meet with classmates to work through exercises together. We will do our best to answers questions in the [GoToMeeting](https://www.gotomeet.me/biof309) and [WebEx](https://cbiit.webex.com/join/skarzynskimw) chat windows during class. We will also try to answer all questions on [Slack](https://biof309.slack.com), but please try to ask your questions during class, if at all possible.
+Attendance in class is strongly recommended; however, we realize other commitments may occasionally prevent attendance. If you miss a class, please review the materials available at the course [GitHub repository](https://github.com/biof309/fall2019) and keep up with activities and homework.
 
-Important FAES Fall 2018 semester dates:
-
-* July 9 – September 7: Online Registration.
-* September 10 – 28: Late Registration (10 dollar late fee per course applies).
-* September 10: Classes begin.
-* December 14: Classes end.
+Forming groups to complete the final project is highly encouraged! 
 
 Required Materials
 ------------------
@@ -114,7 +119,7 @@ During the first few classes, we will set up accounts on:
 3. [GitHub](https://github.com/)
 
     All of the course materials are available on [GitHub](https://github.com/).
-    Before accessing the [course materials repo](https://github.com/marskar/biof309_fall2018), you should know that
+    Before accessing the [course materials repo](https://github.com/biof309/fall2019), you should know that
     * it is likely to be under constant development throughout the semester and
     * you are not expected to work through _everything_ contained therein!
 
@@ -134,20 +139,20 @@ Schedule
 
 | #  | Date       | Title                                   | Lead              |
 |----|------------|-----------------------------------------|-------------------|
-| 1  | 2018-09-13 | Integrated Development Environments     | Martin            |
-| 2  | 2018-09-20 | Python Basics                           | Martin            |
-| 3  | 2018-09-27 | Running Python code                     | Martin            |
-| 4  | 2018-10-04 | Git and GitHub                          | Martin            |
-| 5  | 2018-10-11 | Functions, Modules, & Packages + Loops  | Martin            |
-| 6  | 2018-10-18 | Booleans and Conditionals               | Jinping & Michael |
-| 7  | 2018-10-25 | NumPy and Arrays                        | Martin            |
-| 8  | 2018-11-01 | Pandas and DataFrames                   | Jinping & Michael |
-| 9  | 2018-11-19 | Machine Learning                        | Martin            |
-| 10 | 2018-11-27 | Data Visualization                      | Jinping & Michael |
-| 11 | 2018-11-29 | Requested Topics/Final Project Clinic   | All Instructors   |
-| 13 | 2018-12-06 | Student Presentations                   |                   |
-| 12 | 2018-12-11 | Student Presentations                   |                   |
-| 14 | 2018-12-13 | Student Presentations                   |                   |
+| 1  | 2019-09-12 | Introduction        | Martin            |
+| 2  | 2019-09-17 | Github, binder, jupyter | Martin        |
+| 3  | 2019-10-01 | A python whirlwind        | Martin            |
+| 4  | 2019-10-04 | Git                          | John            |
+| 5  | 2019-10-11 | Functions, Modules, & Packages + Loops  | John            |
+| 6  | 2019-10-18 | Booleans and Conditionals               | TBD |
+| 7  | 2019-10-25 | NumPy and Arrays                        | TBD            |
+| 8  | 2019-11-01 | Pandas and DataFrames                   | TBD |
+| 9  | 2019-11-19 | Machine Learning                        | TBD            |
+| 10 | 2019-11-27 | Data Visualization                      | TBD |
+| 11 | 2019-11-29 | Requested Topics/Final Project Clinic   | All Instructors   |
+| 13 | TBD | Student Presentations                   |                   |
+| 12 | TBD | Student Presentations                   |                   |
+| 14 | TBD | Student Presentations                   |                   |
 
 
 Homework
@@ -174,56 +179,56 @@ This will take 28-67 hours total to complete, depending on which you choose to d
 
 Please use the schedule below as a guide to which [DataCamp](https://www.datacamp.com) and [PluralSight](https://www.pluralsight.com) chapters/lessons correspond to what is covered in class.
 
-01. DUE September 13, 2018 (BEFORE Class)
+01. DUE September 13, 2019 (BEFORE Class)
     - Install [Anaconda Scientific Python Distribution](https://www.continuum.io/downloads)
     - Install [PyCharm](https://www.jetbrains.com/student)
 
-02. DUE September 20, 2018 (BEFORE Class)
+02. DUE September 20, 2019 (BEFORE Class)
     - [Python Basics](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics)
     - [Python: Getting Started](https://www.pluralsight.com/courses/python-getting-started)
     - [Python Fundamentals](https://www.pluralsight.com/courses/python-fundamentals)
     - Chapters 01-05 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
     - Chapter 02 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 
-03. DUE September 27, 2018 (BEFORE Class)
+03. DUE September 27, 2019 (BEFORE Class)
     - [Python Lists](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-2-python-lists)
     - [Functions and Packages](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-3-functions-and-packages)
     - [Python – Beyond the Basics](https://www.pluralsight.com/courses/python-beyond-basics)
     - Chapter 08 & 13 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
     - Chapter 03 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 
-04. DUE October 4, 2018 (BEFORE Class)
+04. DUE October 4, 2019 (BEFORE Class)
     - [Loops](https://campus.datacamp.com/courses/intermediate-python-for-data-science/loops)
     - [Logic, Control Flow and Filtering](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
     - [The Python Developer's Toolkit](https://www.pluralsight.com/courses/python-developers-toolkit)
     - Chapter 06, 07, & 09 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
-05. DUE October 11, 2018 (BEFORE Class)
+05. DUE October 11, 2019 (BEFORE Class)
     - Biopython TBD
     - Chapter 00-02 in [Biopython-Notebook](https://github.com/tiagoantao/biopython-notebook/tree/master/notebooks)
     - [Unit Testing with Python](https://www.pluralsight.com/courses/unit-testing-python)
 
-06. DUE October 18, 2018 (BEFORE Class)
+06. DUE October 18, 2019 (BEFORE Class)
     - [NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
     - Chapter 02 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
     - Chapter 04 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
     - [Full Stack Web Development with Python (WEB2PY)](https://www.pluralsight.com/courses/full-stack-web-development-python-web2py)
     - [Advanced Python](https://www.pluralsight.com/courses/advanced-python)
 
-07. DUE October 25, 2018 (BEFORE Class)
+07. DUE October 25, 2019 (BEFORE Class)
 	- [Dictionaries & Pandas](https://campus.datacamp.com/courses/intermediate-python-for-data-science/dictionaries-pandas)
 	- Chapter 03 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 	- Chapter 05-12 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 	- [Django Fundamentals](https://www.pluralsight.com/courses/django-fundamentals-update)
 
-08. DUE November 1, 2018 (BEFORE Class)
+08. DUE November 1, 2019 (BEFORE Class)
     - [Getting Started with Machine Learning in Python](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/getting-started-with-python)
     - [Predicting with Decision Trees](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/predicting-with-decision-trees)
     - [Improving your Predictions through Random Forests](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/improving-your-predictions-through-random-forests)
     - Chapter 05 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
     - [Testing Django Applications](https://www.pluralsight.com/courses/testing-django-applications)
 
-09. DUE November 8, 2018 (BEFORE Class)
+09. DUE November 8, 2019 (BEFORE Class)
     - [Introduction to Data Visualization with Python](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
     - [Data Visualization with Seaborn](https://www.datacamp.com/courses/data-visualization-with-seaborn)
     - Chapter 04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
@@ -302,4 +307,4 @@ Grading the __final project__ will be done using the following rubric:
 Course Materials
 ----------------
 
-Course materials are available in the course [GitHub repository](https://github.com/marskar/biof309_fall2018).
+Course materials are available in the course [GitHub repository](https://github.com/biof309/fall2019).
