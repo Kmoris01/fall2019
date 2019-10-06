@@ -22,7 +22,6 @@ Project files may be organized into subdirectories or kept at the top-level.
 
 First Python Project Principle: Modularity
 
-### In other words...
 
 A project is a folder with project files inside.
 I like to think of each project as a chance to
@@ -59,7 +58,6 @@ To get the benefits of modularity and the convenience of a single file:
 1. start with small files and then 
 2. create a separate larger file later.
 
-### In other words...
 
 A monolithic file, like the analysis.ipynb file we saw earlier,
 might contain all of the project's code, docs, and output.
@@ -82,7 +80,6 @@ To further improve the modularity and reusability of our code, we will
 - define functions in `modules` and 
 - use the functions in `scripts`. 
 
-### In other words...
 
 If you begin to notice patterns in the code, it is time to start thinking about the next Python Project Principle: Reusability.
 According to the Reusability Principle, you should reuse code instead of repeating it. 
@@ -106,7 +103,6 @@ Modules and scripts differ in how and why they are used.
 | Module   | Import | Define functions |
 | Script   | Run    |  Call functions  |
 
-### In other words...
 
 Modules and scripts are Python code files with .py extensions.
 They differ only in how and why they are used.
@@ -131,7 +127,6 @@ say.hello()
 
 3. Type `python greet.py` in a shell and press Enter.
 
-### In other words...
 Above is an example module named say that defines a function named hello.
 There is also an example script named greet that imports the say module and calls its hello function.
 You may have noticed that I do not include the .py extension when referring to modules and scripts.
@@ -155,7 +150,6 @@ Adding `hello()` to `say` without the `if` statement, would make `greet` print `
 Once when the `say` module is imported and again when `greet` calls `hello`. 
 This is because the `say` module, like all `.py` files, is executed immediately upon import! 
 
-### In other words...
 
 A Python code file can be used as both a module and a script.
 
@@ -186,7 +180,6 @@ To run a series of scripts, use the `import` statement as in the example below.
 import get_data, clean_data, fit_model, evaluate_model
 ```
 
-### In other words...
 
 Scripts in data science projects are typically run in a sequence that be shown as a directed acyclic graph.
 
@@ -213,7 +206,6 @@ The `__main__.py` script can  {{2}}
 
 A great example of how we can enjoy the convenience of including everything in a single file without sacrificing modularity! {{3}}
 
-### In other words...
 
 The script that uses the import statement to execute all of the other scripts in a project should be at the top level and will be most useful if it is named `__main__.py`.
 Double underscores around Python names are pronounced dunder.
